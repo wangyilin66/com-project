@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+*{
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+img{
+    border:0;
+}
+#map {
+    position: absolute;top:0;bottom: 0;width:1800px;height: 800px;
+}
+
+#root {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 1920px;
+    height: 1080px;
+    background: url('../img/big_bg.png') no-repeat;
+    background-size: 100% 100%;
+}
+.link{
+    color:rgba(0,252,255,1);
+    text-decoration:none
+}

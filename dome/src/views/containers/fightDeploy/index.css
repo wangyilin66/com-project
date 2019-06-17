@@ -1,0 +1,288 @@
+html,body {
+    list-style: none;
+}
+.deploy {
+    width: 100%;
+    height: 100%;
+    padding: 32px 21px 68px 21px;
+    box-sizing: border-box;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+#botContent {
+    width: 100%;
+    background: #eee;
+    flex: 1;
+}
+
+.caseBox1{
+    width: 1800px;
+    height: 800px;
+  }
+.caseBox1 .caseWrap {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+  .caseBox1 .caseWrap>li {
+    width: 420px;
+    height: 800px;
+    position: relative;
+    margin-right: 40px;
+    list-style: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: url(../../../common/img/bg.png) no-repeat;
+  }
+  .caseBox1 .caseWrap li::-webkit-scrollbar{
+    display: none;
+  }
+  .caseBox1 .caseWrap li:last-child {
+    margin-right: 0;
+  }
+  .caseBox1 .caseWrap li .caseNum {
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: -20px;
+    list-style: none;
+
+    margin-left: -75px;    
+    font-size:18px;
+    font-family:DFPYuanW7;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+  }
+
+  .caseDetail {
+    position: absolute;
+    padding: 60px 28px 0 28px;
+    box-sizing: border-box;
+
+  }
+
+  .caseDetail .caseInfoNav {
+      list-style: none;
+      width: 100%;
+      height: 32px;
+      display: flex;
+      margin-bottom: 10px;
+  }
+  .caseDetail .caseInfoNav li{
+      width: 120px;
+      height: 32px;
+      margin: 0;
+      text-align: center;
+      line-height: 32px;
+    list-style: none;
+
+    font-size:16px;
+    font-family:DFPYuanW7;
+    font-weight:400;
+    color:rgba(0,252,255,1);
+    background: url(../../../common/img/xinxi_btn_bg01.png) no-repeat;
+  }
+  .caseDetail .detail .userInfo span{
+    height:14px;
+    font-size:14px;
+    font-family:DFPYuanW7;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+  }
+  .caseDetail .detail .caseName {
+    font-size:18px;
+    font-family:DFPYuanW7;
+    font-weight:400;
+    /* margin: 6px 0; */
+    color:rgba(255,255,255,1); 
+  }
+   .caseDetail .detail .caseTime {
+    font-size:14px;
+    font-family:DFPYuanW7;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+   }
+   .caseDetail .detail .caseDescribe{
+    /* width:166px; */
+    font-size:10px;
+    font-family:DFPYuanW7;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+   }
+
+   .actionObject {
+     width: 100%;
+     height: 100%;
+     /* background: pink; */
+   }
+.actionObject .actionTop {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.actionObject .actionTop span:first-child {font-size:18px;
+font-family:DFPYuanW7;
+font-weight:400;
+color:rgba(255,255,255,1);
+}
+.actionObject .actionTop span:last-child {
+  font-size:14px;
+  font-family:DFPYuanW7;
+  font-weight:400;
+  color:rgba(0,252,255,1);
+}
+.actionObject .actionObjectInfo {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.actionObject .actionObjectInfo>div{
+  /* margin-top: 25px; */
+  width: 166px;
+  height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background: url(../../../common/img/xinxi_bg.png) no-repeat;
+}
+.actionObject .actionObjectInfo>div::-webkit-scrollbar{
+  display: none;
+}
+
+
+.actionObjectInfoWrap dl {
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+}
+.actionObjectInfoWrap dl dd {
+  margin: 0;
+  text-align: center;
+}
+.actionObjectInfoWrap dl dd img {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.actionObjectInfoWrap dl dt {
+  padding: 0 6px;
+  box-sizing: border-box;
+  font-size:10px;
+  font-family:DFPYuanW7;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+  display: flex;
+  flex-direction: column;
+}
+  
+
+.caseDetail .fightPlayback {
+  margin-top: 20px;
+  width: 100%;
+  position: relative;
+  height: 50px;
+  background: url(../../../common/img/xinxi_btn_bg02.png) no-repeat 50%;
+}
+
+.fightPlayback p {
+  font-size:12px;
+font-family:DFPYuanW7;
+font-weight:400;
+color:rgba(0,252,255,1);
+position: absolute;
+left: 43%;
+top: 4px;
+}
+
+.caseWrap .deployBtn {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.caseWrap .deployBtn>li{
+    width: 176px;
+    height: 32px;
+    margin: 0;
+    background-size: 100% 100%;
+    font-size:16px;
+    text-align: center;
+    list-style: none;
+    line-height: 32px;
+    font-family:DFPYuanW7;
+    position: relative;
+    font-weight:400;
+    color:rgba(0,252,255,1);
+    background: url(../../../common/img/nav_btn_bg.png)
+}
+
+.taskInfo{
+    width: 100%;
+    /* height: 100%; */
+    padding: 60px 50px;
+    box-sizing: border-box;
+}
+.taskInfo .taskInfoTop{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    line-height: 1.8;
+    flex-direction: column;
+    font-size:16px;
+    font-family:DFPYuanW7;
+    font-weight:400;
+    color:rgba(254,254,254,1);
+}
+
+.taskBottom {
+    width: 100%;
+    /* height: 100%; */
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.taskBottom .equipment {
+    font-size:16px;
+    font-family:DFPYuanW7;
+    font-weight:400;
+    color:rgba(254,254,254,1);
+}
+.taskBottom .teamNumber {
+    margin-left: 15px;
+}
+.taskBottom .teamNumber>li {
+    list-style: none;
+    font-size:12px;
+font-family:DFPYuanW7;
+font-weight:400;
+color:rgba(254,254,254,1);
+}
+.taskBottom .teamNumber>li ol {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+.taskBottom .teamNumber>li ol li {
+    list-style: none;
+    font-size:12px;
+    font-family:DFPYuanW7;
+    font-weight:400;
+    color:rgba(254,254,254,1);
+    width: 20%;
+}
